@@ -1,7 +1,7 @@
-package com.crimson.simple.imageloader
+package com.crimson.simple
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.list.listItems
 import com.crimson.imageloader.ImageLoaderImpl
@@ -129,7 +129,12 @@ class MainActivity : AppCompatActivity() {
                         ?.url(url)
                         ?.imageView(iv_image)
                         ?.isBuildFromLottie(true)
-                        ?.buildLottieConfig(LottieImageConfig(LottieImageLoadType.NETWORK,lottieUrl))
+                        ?.buildLottieConfig(
+                            LottieImageConfig(
+                                LottieImageLoadType.NETWORK,
+                                lottieUrl
+                            )
+                        )
                         ?.build()
                 )
             }
@@ -140,7 +145,12 @@ class MainActivity : AppCompatActivity() {
                         ?.url(url)
                         ?.imageView(iv_image)
                         ?.isBuildFromLottie(true)
-                        ?.buildLottieConfig(LottieImageConfig(LottieImageLoadType.ASSETS,"AndroidWave.json"))
+                        ?.buildLottieConfig(
+                            LottieImageConfig(
+                                LottieImageLoadType.ASSETS,
+                                "AndroidWave.json"
+                            )
+                        )
                         ?.build()
                 )
             }
@@ -152,7 +162,12 @@ class MainActivity : AppCompatActivity() {
                         ?.url(url)
                         ?.imageView(iv_image)
                         ?.isBuildFromLottie(true)
-                        ?.buildLottieConfig(LottieImageConfig(LottieImageLoadType.RAW_RES,rowRes = R.raw.lottielogo))
+                        ?.buildLottieConfig(
+                            LottieImageConfig(
+                                LottieImageLoadType.RAW_RES,
+                                rowRes = R.raw.lottielogo
+                            )
+                        )
                         ?.build()
                 )
             }
