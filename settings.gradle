@@ -1,0 +1,3 @@
+include 'imageloader'
+include ':simple'
+rootProject.name = "imageloader"

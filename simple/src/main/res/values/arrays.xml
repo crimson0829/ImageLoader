@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="testApis">
+        <item>imageRadius</item>
+        <item>isCrossFade</item>
+        <item>isCenterCrop</item>
+        <item>isFitCenter</item>
+        <item>isCircle</item>
+        <item>imageBlur</item>
+        <item>isLoadAsBitmap</item>
+        <item>buildLottieFromUrl</item>
+        <item>buildLottieFromAssets</item>
+        <item>buildLottieFromRaw</item>
+    </string-array>
+</resources>
