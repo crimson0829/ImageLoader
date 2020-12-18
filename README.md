@@ -9,7 +9,7 @@
 
 ```
 
-implementation 'com.github.crimson0829:ImageLoader:1.0'
+implementation 'com.github.crimson0829:ImageLoader:1.0.3'
 
 ```
 
