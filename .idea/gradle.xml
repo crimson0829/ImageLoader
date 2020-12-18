@@ -12,7 +12,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/imageloader" />
+            <option value="$PROJECT_DIR$/library_imageloader" />
             <option value="$PROJECT_DIR$/simple" />
           </set>
         </option>
