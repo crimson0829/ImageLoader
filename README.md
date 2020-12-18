@@ -8,6 +8,7 @@
 #### 引入
 
 ```
+
 implementation 'com.github.crimson0829:ImageLoader:1.0'
 
 ```
@@ -86,7 +87,7 @@ fun ImageView.loadImageFromLottie(config: LottieImageConfig?)
 |     isLoadAsBitmap     | Boolean |                     是否转换成Bitmap加载                     |
 | loadBitmapSuccessBlock | Object  |                      转换Bitmap成功回调                      |
 |  loadBitmapErrorBlock  | Object  |                      转换Bitmap失败回调                      |
-|   lottieImageConfig    | Object  | lottie图片配置：<br />type -> 加载模式<br />assets -> 加载资源(包括url、                assets和 json string)<br />rowRes -> 记载row资源<br />isRepeatAnim ->是否循环动画 |
+|   lottieImageConfig    | Object  | lottie图片配置：<br />type -> 加载模式<br />assets -> 加载资源(包括url、assets和 json string)<br />rawRes -> 记载raw资源<br />isRepeatAnim ->是否循环动画 |
 |   isBuildFromLottie    | Boolean |                      是否使用lottie加载                      |
 |    isBindLifecycle     | Boolean |                 是否绑定生命周期，默认为开启                 |
 
